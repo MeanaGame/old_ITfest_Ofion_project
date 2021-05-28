@@ -14,6 +14,8 @@ clock = pygame.time.Clock()
 start_time = time.time()
 
 pygame.mouse.set_visible(False)
+pygame.display.set_caption('OFION')
+pygame.display.set_icon(pygame.image.load(r'assets\Background\logo.jpg'))
 ###########################################################
 col_in = (0, 200, 200)
 col_out = (153, 204, 255)
